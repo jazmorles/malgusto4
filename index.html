@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mal Gusto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .gallery, .large-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .gallery-item {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            width: 300px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .medidas {
+            font-style: italic;
+            color: #666;
+            margin-top: 5px;
+        }
+        .statement, .contacto {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #333;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mal Gusto</h1>
+    </header>
+    <div class="container">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="obra1.jpeg" alt="Obra de arte 1">
+                <p class="medidas">Medidas: 30x30 cm</p>
+            </div>
+            <div class="gallery-item">
+                <img src="obra2.jpeg" alt="Obra de arte 2">
+                <p class="medidas">Medidas: 30x30 cm</p>
+            </div>
+            <div class="gallery-item">
+                <img src="obra3.jpeg" alt="Obra de arte 3">
+                <p class="medidas">Medidas: 30x30 cm</p>
+            </div>
+        </div>
+
+        <div class="large-gallery">
+            <div class="gallery-item">
+                <img src="obra4.jpeg" alt="Obra de arte destacada 1">
+                <p class="medidas">Medidas: 30x50 cm</p>
+            </div>
+            <div class="gallery-item">
+                <img src="obra5.jpeg" alt="Obra de arte destacada 2">
+                <p class="medidas">Medidas: 30x50 cm</p>
+            </div>
+            <div class="gallery-item">
+                <img src="obra6.jpeg" alt="Obra de arte destacada 3">
+                <p class="medidas">Medidas: 30x50 cm</p>
+            </div>
+        </div>
+
+        <div class="statement">
+            <h2>Statement de Artista</h2>
+            <p>
+                Mi arte es un tributo a lo absurdo, una oda al sinsentido y una exploración de lo grotesco. Obra que se ahoga en su propia estupidez, donde el mal gusto
+                se alza como una bandera y la decadencia es la única verdad.
+            </p>
+        </div>
+
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <p>Email: <a href="mailto:jazmorles@outlook.com">jazmorles@outlook.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/malguusto" target="_blank">@malguusto</a></p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Mal Gusto. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
